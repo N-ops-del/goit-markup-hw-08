@@ -2,8 +2,25 @@
     background-color: #F5F4FA;
 }
 .team-list{
-    display: flex;
+    display: flex;    
     margin-top: 50px;
+    @media screen and(min-width:320px){
+        flex-direction: column;
+        &:nth-child(n+1){
+            margin-bottom: 30px ;
+        }                
+    }
+    @media screen and(min-width:768px){
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+            width: calc(100% + 30px);
+            padding-bottom: 60px;
+            margin: 0 15px;
+            margin-top: 30px;          
+    }
 }
 .team-card-list{
     text-align: center;
@@ -17,6 +34,31 @@
     &:not(:last-child){
         margin-right: 30px;
         }
+        @media screen and(min-width:320px){
+            max-width: 290px;
+            &:not(:last-child){
+                margin-right: 0;
+                }
+
+            &:nth-child(n+1){
+                margin-bottom: 30px;                
+            }        
+        }
+        @media screen and(min-width:320px){
+            max-width: 450px;
+            &:not(:last-child){
+                margin-right: 0;
+                }       
+        }
+        @media screen and(min-width:768px){
+            max-width: 354px;
+            &:not(:last-child){
+                margin-right: 0;
+                }
+                &:nth-child(n+1){
+                    margin-right: 30px;                
+                }      
+        }    
 }
 .profession{
     font-size: 16px;
