@@ -1,0 +1,30 @@
+.regular-customers-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.customers-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,&:focus{
+        border-color: #2196F3;
+    }
+    &:hover>.customers-logo,&:focus>.customers-logo{
+        fill: #2196F3;
+    }
+}
+.customers-logo{
+    fill: #AFB1B8;    
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}

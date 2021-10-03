@@ -1,0 +1,99 @@
+.header{
+    border-bottom: 1px solid #ECECEC;    
+}
+.contacts-list{
+    margin-left: auto;
+    display: flex;
+}
+.navigation-list__item:not(:last-child){
+    margin-right: 50px;
+}
+.contacts-list__item:not(:last-child){
+    margin-right: 50px;
+}
+.logo{
+    margin-right: 93px;
+}
+.pre-logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.sub-logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+}
+.sub-logo-second{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.present-page{
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    &::after{
+        content: '';
+        position: absolute;
+        top: 45px;
+        display: block;
+        width: 48px;
+        height: 4px;
+        background: #2196F3;
+        border-radius: 2px;
+    }
+}
+.present-page-portfolio::after{
+    width:78px ;
+}
+.navigation-list__link{
+    display: block;
+    padding: 32px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--secondary-title-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,&:focus{
+        color: var(--accent-color);
+    }
+}
+.contacts-list__link{
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;    
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,&:focus{
+        color: var(--accent-color);
+    }
+}
+.envelope{
+    fill: currentColor;
+    margin-right: 10px;
+}
+.telephone{
+    fill: currentColor;
+    margin-right: 10px;
+}

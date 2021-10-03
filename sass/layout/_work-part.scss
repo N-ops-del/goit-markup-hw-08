@@ -1,0 +1,28 @@
+.work-logo-item{
+    width: 290px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: none;
+    @media screen and(min-width:480px){
+        width: 450px;        
+    }
+    @media screen and(min-width:768px){
+        width: 354px;      
+    }
+}
+.work-section{
+    padding-top: 0;
+    display: none;
+}
+.work-list{
+    display: flex;
+    justify-content: space-between;
+}
+.work-title{
+    margin-bottom: 50px;
+}
