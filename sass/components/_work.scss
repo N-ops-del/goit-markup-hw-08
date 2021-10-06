@@ -15,6 +15,7 @@
     justify-content: flex-start;
   }
   &-item {
+    height: 294px;
     margin-right: 30px;
     &:nth-child(3n) {
       margin-right: 0;
@@ -22,7 +23,9 @@
   }
   &__img {
     position: relative;
-    width: calc((100% - 30px * 2) / 3);
+    // width: calc((100% - 30px * 2) / 3);
+    width: 370px;
+    height: 294px;
   }
   @media screen and (max-width: 1199px) {
     display: none;

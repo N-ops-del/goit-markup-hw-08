@@ -13,34 +13,32 @@ a{
     text-decoration: none;
 }
 p, h1, h2, h3, h4, h5, h6{
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 ul{
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin: 0;
+    padding:0;
 }
-.portfolio-wrapper
-{
-    display: flex;
-}
-.navigation-list{
-    display: flex;
-    align-items: center; 
-}
-.button-list{
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: center;    
-}
-.header .container{
-    display: flex;
-    align-items: center;
-}
-.header-navigation{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
+// .portfolio-wrapper
+// {
+//     display: flex;
+// }
+// .navigation-list{
+//     display: flex;
+//     align-items: center; 
+// }
+// .button-list{
+//     display: flex;
+//     margin-bottom: 50px;
+//     justify-content: center;    
+// }
+// // .header .container{
+// //     display: flex;
+// //     align-items: center;
+// // }
+// .header-navigation{
+//     align-items: center;
+//     display: flex;
+//     justify-content: space-between;
+// }
